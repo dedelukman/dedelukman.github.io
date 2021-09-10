@@ -1,117 +1,1242 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600&family=Poppins:wght@200;300;400;600;800&family=Roboto&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600&family=Poppins:wght@200;300;400;600;800&family=Roboto&family=Roboto+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- Icons -->
-    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
 
     <!-- Theme CSS -->
-    <link type="text/css" href="/assets/css/argon-design-system.min.css" rel="stylesheet">
+    <link
+      type="text/css"
+      href="/assets/css/argon-design-system.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
 
     <!-- Personal Styles -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" />
 
     <title>Dede Lukmanul Hakim</title>
   </head>
-  <body>    
+  <body>
     <!-- --------------- HEADER --------------- -->
-    <header class="header">
-        <nav class="nav container navbar-expand-lg">
-            <a href="" class="nav__logo navbar-brand ml-3">Dede Lukmanul Hakim</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-default" aria-controls="navbar-default" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="nav__menu" id="nav-menu">
-                <ul class="nav__list grid">
-                    <li class="nav__item">
-                        <a href="#home" class="nav__link">
-                            <i class="uil uil-estate nav__icon">Home</i>
-                        </a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#about" class="nav__link">
-                            <i class="uil uil-user nav__icon">About</i>
-                        </a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#skills" class="nav__link">
-                            <i class="uil uil-file nav__icon">Skills</i>
-                        </a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#qualification" class="nav__link">
-                            <i class="uil uil-diary nav__icon">Qualification</i>
-                        </a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#portfolio" class="nav__link">
-                            <i class="uil uil-scenery nav__icon">Portfolio</i>
-                        </a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#contact" class="nav__link">
-                            <i class="uil uil-message nav__icon">Contact Us</i>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+    <header class="header" id="header">
+      <nav class="nav container navbar-expand-lg">
+        <a href="#" class="nav__logo navbar-brand ml-3">Dede Lukmanul Hakim</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbar-default"
+          aria-controls="navbar-default"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list grid">
+            <li class="nav__item">
+              <a href="#home" class="nav__link">
+                <i class="uil uil-estate nav__icon"></i>Home
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#about" class="nav__link">
+                <i class="uil uil-user nav__icon"></i>About
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">
+                <i class="uil uil-file nav__icon"></i>Skills
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#qualification" class="nav__link">
+                <i class="uil uil-diary nav__icon"></i>Qualification
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#portfolio" class="nav__link">
+                <i class="uil uil-scenery nav__icon"></i>Portfolio
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">
+                <i class="uil uil-message nav__icon"></i>Contact Us
+              </a>
+            </li>
+          </ul>
+          <i class="uil uil-times nav__close" id="nav-close"></i>
+        </div>
+
+        <div class="nav__btns">
+          <!-- THEME CHANGING BUTTONS -->
+          <i
+            data-mode="dark"
+            class="uil uil-moon moon-change-theme"
+            id="theme-button"
+          ></i>
+
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="uil uil-apps"></i>
+          </div>
+        </div>
+      </nav>
     </header>
 
     <!-- ================ MAIN =============== -->
     <main class="main">
+      <!-- --------------- HOME --------------- -->
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="home__content grid">
+            <div class="home__social">
+              <a
+                href="https://www.linkedin.com/in/dede-lukmanul-hakim-73bb6772/"
+                target="_blank"
+                class="home__social-icon"
+                id="myLinkedIn"
+              >
+                <i class="uil uil-linkedin-alt"></i>
+              </a>
 
-    <!-- --------------- HOME --------------- -->
-        <section class="home section" id="home">
+              <a
+                href="https://gitlab.com/dedelukman"
+                target="_blank"
+                class="home__social-icon"
+                id="myGitlab"
+              >
+                <i class="uil uil-gitlab"></i>
+              </a>
 
-        </section>
+              <a
+                href="https://github.com/dedelukman"
+                target="_blank"
+                class="home__social-icon"
+                id="myGithub"
+              >
+                <i class="uil uil-github-alt"></i>
+              </a>
 
-    <!-- --------------- ABOUT --------------- -->
-        <section class="about section" id="about">
+              <a
+                href="https://web.facebook.com/dede.lukmanulhakim.96/"
+                target="_blank"
+                class="home__social-icon"
+                id="myFacebook"
+              >
+                <i class="uil uil-facebook-f"></i>
+              </a>
 
-        </section>
+              <a
+                href="https://www.hackerrank.com/dlukmanul_h"
+                target="_blank"
+                class="home__social-icon"
+                id="myHackerRank"
+              >
+                <i class="uil uil-hospital-square-sign"></i>
+              </a>
+            </div>
+          </div>
 
-    <!-- --------------- ABOUT --------------- -->
-    <section class="about section" id="skills">
+          <div class="home__data">
+            <small class="home__welcome s-color">
+              Welcome to my Portfolio Website!
+            </small>
+            <h1 class="home__title">Hey I'm</h1>
+            <div id="typewriter"></div>
+            <h3 class="home__subtitle" id="home-bio">
+              A software engineer enthusiast about technology and software
+              development. Passionate on learning new.
+            </h3>
+            <a href="#contact" class="button button--flex">
+              Contact Me <i class="uil uil-message button__icon"></i>
+            </a>
+          </div>
+        </div>
 
-    </section>
+        <div class="home__scroll">
+          <a href="#about" class="home__scroll-button button--flex">
+            <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+            <!-- <span class="home__scroll-name"> Scroll Down </span>
+                    <i class="uil uil-arrow-down home__scroll-arrow"></i> -->
+          </a>
+        </div>
+      </section>
 
-    <!-- --------------- QUALIFICATIONS --------------- -->
-        <section class="qualificatin section" id="qualification">
+      <!-- --------------- ABOUT --------------- -->
+      <section class="about section" id="about">
+        <h2 class="section__title">About</h2>
+        <span class="section__subtitle"> My Introduction </span>
 
-        </section>
+        <div class="about__container container grid">
+          <img
+            src="assets/img/foto.jpg"
+            alt="my achievement photo"
+            class="about__img"
+          />
 
-    <!-- --------------- PORTFOLIO --------------- -->
-        <section class="portfolio section" id="portfolio">
+          <div class="about__data">
+            <p class="about__description" id="home-about">
+              Software developer, with extensive knowledge and years of
+              experience, working with desktop, android and web technologies.
+              Delivering quality works. Professionally I am a Calibrator
+              Techician as well
+            </p>
+          </div>
 
-        </section>
+          <div class="about__info">
+            <div>
+              <span class="about__info-title"> 03+ </span>
+              <span class="about__info-name">
+                Years <br />
+                Experience
+              </span>
+            </div>
 
-    <!-- --------------- CONTACT US --------------- -->
-        <section class="contact section" id="contact">
+            <div>
+              <span class="about__info-title"> 10+ </span>
+              <span class="about__info-name">
+                Completed <br />
+                Projects
+              </span>
+            </div>
 
-        </section>
+            <div>
+              <span class="about__info-title"> 03+ </span>
+              <span class="about__info-name">
+                Companies <br />
+                Worked
+              </span>
+            </div>
+          </div>
 
+          <div class="about__buttons">
+            <a
+              href="assets/file/CV.pdf"
+              download="my_CV"
+              target="_blank"
+              class="button button--flex"
+            >
+              Download CV <i class="uil uil-download-alt button__icon"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- --------------- SKILLS --------------- -->
+      <section class="skills section" id="skills">
+        <h2 class="section__title">Skillset</h2>
+        <span class="section__subtitle"> My skillsets </span>
+
+        <div class="skills__container container grid">
+          <div class="row" id="skillset_container">
+            <!-- Skill 1 -->
+            <div class="skills__container-card">
+              <div class="card_skill shadow2">
+                <div class="imgBx">
+                  <img src="assets/img/mysql.svg" alt="HTML logo" />
+                </div>
+                <div class="contentBx">
+                  <h2>MySQL</h2>
+                </div>
+              </div>
+            </div>
+
+            <!-- Skill 2 -->
+            <div class="skills__container-card">
+              <div class="card_skill shadow2">
+                <div class="imgBx">
+                  <img src="assets/img/java.svg" alt="Java logo" />
+                </div>
+                <div class="contentBx">
+                  <h2>Java</h2>
+                </div>
+              </div>
+            </div>
+
+            <!-- Skill 3 -->
+            <div class="skills__container-card">
+              <div class="card_skill shadow2">
+                <div class="imgBx">
+                  <img src="assets/img/php.svg" alt="PHP logo" />
+                </div>
+                <div class="contentBx">
+                  <h2>PHP</h2>
+                </div>
+              </div>
+            </div>
+
+            <!-- Skill 4 -->
+            <div class="skills__container-card">
+              <div class="card_skill shadow2">
+                <div class="imgBx">
+                  <img src="assets/img/HTML.svg" alt="HTML logo" />
+                </div>
+                <div class="contentBx">
+                  <h2>HTML</h2>
+                </div>
+              </div>
+            </div>
+
+            <!-- Skill 5 -->
+            <div class="skills__container-card">
+              <div class="card_skill shadow2">
+                <div class="imgBx">
+                  <img src="assets/img/CSS.svg" alt="CSS logo" />
+                </div>
+                <div class="contentBx">
+                  <h2>CSS</h2>
+                </div>
+              </div>
+            </div>
+
+            <!-- Skill 5 -->
+            <div class="skills__container-card">
+              <div class="card_skill shadow2">
+                <div class="imgBx">
+                  <img src="assets/img/javascript.svg" alt="JavaScript logo" />
+                </div>
+                <div class="contentBx">
+                  <h2>JavaScript</h2>
+                </div>
+              </div>
+            </div>
+
+            <!-- Skill 6 -->
+            <div class="skills__container-card">
+              <div class="card_skill shadow2">
+                <div class="imgBx">
+                  <img src="assets/img/bootstrap.svg" alt="HTML logo" />
+                </div>
+                <div class="contentBx">
+                  <h2>Bootstrap</h2>
+                </div>
+              </div>
+            </div>
+
+            <!-- Skill 7 -->
+            <div class="skills__container-card">
+              <div class="card_skill shadow2">
+                <div class="imgBx">
+                  <img src="assets/img/laravel.svg" alt="Laravel logo" />
+                </div>
+                <div class="contentBx">
+                  <h2>Laravel</h2>
+                </div>
+              </div>
+            </div>
+
+            <!-- Skill 8 -->
+            <div class="skills__container-card">
+              <div class="card_skill shadow2">
+                <div class="imgBx">
+                  <img src="assets/img/spring.svg" alt="Spring logo" />
+                </div>
+                <div class="contentBx">
+                  <h2>Spring</h2>
+                </div>
+              </div>
+            </div>
+
+            <!-- Skill 9 -->
+            <div class="skills__container-card">
+              <div class="card_skill shadow2">
+                <div class="imgBx">
+                  <img src="assets/img/android.svg" alt="Android logo" />
+                </div>
+                <div class="contentBx">
+                  <h2>Android</h2>
+                </div>
+              </div>
+            </div>
+
+            <!-- Skill 10 -->
+            <div class="skills__container-card">
+              <div class="card_skill shadow2">
+                <div class="imgBx">
+                  <img src="assets/img/git.svg" alt="Git logo" />
+                </div>
+                <div class="contentBx">
+                  <h2>Git</h2>
+                </div>
+              </div>
+            </div>
+
+            <!-- Skill 11 -->
+            <div class="skills__container-card">
+              <div class="card_skill shadow2">
+                <div class="imgBx">
+                  <img src="assets/img/github.svg" alt="Github logo" />
+                </div>
+                <div class="contentBx">
+                  <h2>Github</h2>
+                </div>
+              </div>
+            </div>
+
+            <!-- Skill 12 -->
+            <div class="skills__container-card">
+              <div class="card_skill shadow2">
+                <div class="imgBx">
+                  <img src="assets/img/gitlab.svg" alt="Gitlab logo" />
+                </div>
+                <div class="contentBx">
+                  <h2>Gitlab</h2>
+                </div>
+              </div>
+            </div>
+
+            <!-- Skill 13 -->
+            <div class="skills__container-card">
+              <div class="card_skill shadow2">
+                <div class="imgBx">
+                  <img
+                    src="assets/img/visual-studio-code.svg"
+                    alt="Visual Studio Code logo"
+                  />
+                </div>
+                <div class="contentBx">
+                  <h2>Visual Studio Code</h2>
+                </div>
+              </div>
+            </div>
+
+            <!-- Skill 14 -->
+            <div class="skills__container-card">
+              <div class="card_skill shadow2">
+                <div class="imgBx">
+                  <img src="assets/img/intellij.svg" alt="Interllij logo" />
+                </div>
+                <div class="contentBx">
+                  <h2>Intellij</h2>
+                </div>
+              </div>
+            </div>
+
+            <!-- Skill 15 -->
+            <div class="skills__container-card">
+              <div class="card_skill shadow2">
+                <div class="imgBx">
+                  <img src="assets/img/tux.svg" alt="Linux logo" />
+                </div>
+                <div class="contentBx">
+                  <h2>Linux</h2>
+                </div>
+              </div>
+            </div>
+
+            <!-- Skill 16 -->
+            <div class="skills__container-card">
+              <div class="card_skill shadow2">
+                <div class="imgBx">
+                  <img src="assets/img/gimp.svg" alt="Gimp logo" />
+                </div>
+                <div class="contentBx">
+                  <h2>Gimp</h2>
+                </div>
+              </div>
+            </div>
+
+            <!-- Skill 17 -->
+          </div>
+        </div>
+      </section>
+
+      <!-- --------------- QUALIFICATIONS --------------- -->
+      <section class="qualificatin section" id="qualification">
+        <h2 class="section__title">Qualification</h2>
+        <span class="section__subtitle"> My personal Journey </span>
+
+        <div class="qualification__container container">
+          <div class="row mt-lg-0">
+            <!-- Education -->
+            <div
+              class="col-lg-6 col-sm-10 col-md-10 mt-2 qualification__content"
+              id="education"
+            >
+              <div class="qualification__button button--flex">
+                <i class="uil uil-graduation-cap qualification__icon"></i>
+                Education
+              </div>
+
+              <div id="education_timeline">
+                <div class="container py-2">
+                  <!-- Timeline item 1 -->
+                  <div class="row">
+                    <!-- Timeline design -->
+                    <div class="col-auto text-center flex-column d-sm-flex">
+                      <div class="row h-50 qualification__journey">
+                        <div class="col">
+                          <span class="qualification__line"></span>
+                        </div>
+                        <div class="col">&nbsp;</div>
+                      </div>
+
+                      <h5>
+                        <span class="badge qualification__calendar">
+                          <i
+                            class="
+                              uil uil-calendar-alt
+                              qualification__calendar-icon
+                            "
+                          ></i>
+                          2012
+                        </span>
+                      </h5>
+
+                      <div class="row h-50 qualification__journey">
+                        <div class="col">
+                          <span class="qualification__line"></span>
+                        </div>
+                        <div class="col">&nbsp;</div>
+                      </div>
+                    </div>
+                    <!-- Timeline content Events -->
+                    <div class="col py-2">
+                      <div
+                        class="
+                          card
+                          education-card
+                          transparent_card
+                          mirror-face
+                          shadow2
+                        "
+                      >
+                        <div class="card-body">
+                          <div class="task">
+                            <div class="abstract">
+                              <h3 class="qualification__title">
+                                Bachelor in Engineering
+                              </h3>
+                              <p class="qualification__subtitle">
+                                Ibn Khaldun University
+                              </p>
+                            </div>
+                            <div class="details">
+                              <p class="qualification__subtitle">
+                                Bachelor in Informatics Engineering
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Timeline item 2 -->
+                  <div class="row">
+                    <!-- Timeline design -->
+                    <div class="col-auto text-center flex-column d-sm-flex">
+                      <div class="row h-50 qualification__journey">
+                        <div class="col">
+                          <span class="qualification__line"></span>
+                        </div>
+                        <div class="col">&nbsp;</div>
+                      </div>
+
+                      <h5>
+                        <span class="badge qualification__calendar">
+                          <i
+                            class="
+                              uil uil-calendar-alt
+                              qualification__calendar-icon
+                            "
+                          ></i>
+                          2005
+                        </span>
+                      </h5>
+
+                      <div class="row h-50 qualification__journey">
+                        <div class="col">
+                          <span class="qualification__line"></span>
+                        </div>
+                        <div class="col">&nbsp;</div>
+                      </div>
+                    </div>
+                    <!-- Timeline content Events -->
+                    <div class="col py-2">
+                      <div
+                        class="
+                          card
+                          education-card
+                          transparent_card
+                          mirror-face
+                          shadow2
+                        "
+                      >
+                        <div class="card-body">
+                          <div class="task">
+                            <div class="abstract">
+                              <h3 class="qualification__title">High School</h3>
+                              <p class="qualification__subtitle">
+                                SMK Analis Kimia YKPI Bogor
+                              </p>
+                            </div>
+                            <div class="details">
+                              <p class="qualification__subtitle">
+                                Build Chemical Analysis Skills.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Timeline item end -->
+                  <div class="row">
+                    <!-- Timeline design -->
+                    <div class="col-auto text-center flex-column d-sm-flex">
+                      <div class="row h-50 qualification__journey">
+                        <div class="col">
+                          <span class="qualification__start">
+                            <i
+                              class="uil uil-rocket qualification__start-icon"
+                            ></i>
+                          </span>
+                        </div>
+                        <div class="col">&nbsp;</div>
+                      </div>
+                    </div>
+                    <!-- Timeline content Events -->
+                    <div class="col py-2"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Experience -->
+            <div
+              class="col-lg-6 col-sm-10 col-md-10 mt-2 qualification__content"
+              id="experience"
+            >
+              <div class="qualification__button button--flex">
+                <i class="uil uil-briefcase-alt qualification__icon"></i>
+                Experience
+              </div>
+
+              <div id="expreience_timeline">
+                <div class="container py-2">
+                  <!-- Timeline item 1 -->
+                  <div class="row">
+                    <!-- Timeline design -->
+                    <div class="col-auto text-center flex-column d-sm-flex">
+                      <div class="row h-50 qualification__journey">
+                        <div class="col">
+                          <span class="qualification__line"></span>
+                        </div>
+                        <div class="col">&nbsp;</div>
+                      </div>
+
+                      <h5>
+                        <span class="badge qualification__calendar">
+                          <i
+                            class="
+                              uil uil-calendar-alt
+                              qualification__calendar-icon
+                            "
+                          ></i>
+                          <span id="year"></span>
+                          <script>
+                            document.getElementById('year').innerHTML =
+                              new Date().getFullYear();
+                          </script>
+                        </span>
+                      </h5>
+
+                      <div class="row h-50 qualification__journey">
+                        <div class="col">
+                          <span class="qualification__line"></span>
+                        </div>
+                        <div class="col">&nbsp;</div>
+                      </div>
+                    </div>
+                    <!-- Timeline content Events -->
+                    <div class="col py-2">
+                      <div
+                        class="
+                          card
+                          education-card
+                          transparent_card
+                          mirror-face
+                          shadow2
+                        "
+                      >
+                        <div class="card-body">
+                          <div class="task">
+                            <div class="abstract">
+                              <h3 class="qualification__title">IT</h3>
+                              <p class="qualification__subtitle">
+                                PT. Araya Distriversa Lestari
+                              </p>
+                            </div>
+                            <div class="details">
+                              <p class="qualification__subtitle">
+                                ->Develop, maintaining and improve web and
+                                desktop application (java based).
+                                <br />->Maintaining and monitoring database.
+                                <br />->IT Support
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Timeline item 2 -->
+                  <div class="row">
+                    <!-- Timeline design -->
+                    <div class="col-auto text-center flex-column d-sm-flex">
+                      <div class="row h-50 qualification__journey">
+                        <div class="col">
+                          <span class="qualification__line"></span>
+                        </div>
+                        <div class="col">&nbsp;</div>
+                      </div>
+
+                      <h5>
+                        <span class="badge qualification__calendar">
+                          <i
+                            class="
+                              uil uil-calendar-alt
+                              qualification__calendar-icon
+                            "
+                          ></i>
+                          2017
+                        </span>
+                      </h5>
+
+                      <div class="row h-50 qualification__journey">
+                        <div class="col">
+                          <span class="qualification__line"></span>
+                        </div>
+                        <div class="col">&nbsp;</div>
+                      </div>
+                    </div>
+                    <!-- Timeline content Events -->
+                    <div class="col py-2">
+                      <div
+                        class="
+                          card
+                          education-card
+                          transparent_card
+                          mirror-face
+                          shadow2
+                        "
+                      >
+                        <div class="card-body">
+                          <div class="task">
+                            <div class="abstract">
+                              <h3 class="qualification__title">
+                                EDP-PPIC-CALIBRATION COORDINATOR
+                              </h3>
+                              <p class="qualification__subtitle">
+                                PT. Sekar Ayu Sentosa
+                              </p>
+                            </div>
+                            <div class="details">
+                              <p class="qualification__subtitle">
+                                I have three responsibilities:
+                                <br />EDP: <br />Building, maintaining, solving
+                                problems, and support everything related to IT
+                                at PT Sekar Ayu Sentosa (desktop applications,
+                                web, server / centos, mysql database, networks,
+                                attendance machine, cctv, client computers /
+                                windows / ubuntu, printers, etc. .) <br />PPIC:
+                                <br />-> Collaborating with production,
+                                purchasing and marketing departments for make a
+                                production plan. <br />-> Responsible for
+                                warehouse of finished products, raw materials &
+                                packaging material. <br />-> Collaborating with
+                                warehouses to provide accurate inventory
+                                information (finished products, raw materials &
+                                packaging materials). <br />Calibration
+                                Coordinator: <br />-> Planning internal &
+                                external calibration schedules all measuring
+                                instruments and also ensuring the implementation
+                                is completed according to schedule. <br />->
+                                Providing calibration training to the
+                                calibration officer and overseeing its
+                                implementation
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Timeline item 3 -->
+                  <div class="row">
+                    <!-- Timeline design -->
+                    <div class="col-auto text-center flex-column d-sm-flex">
+                      <div class="row h-50 qualification__journey">
+                        <div class="col">
+                          <span class="qualification__line"></span>
+                        </div>
+                        <div class="col">&nbsp;</div>
+                      </div>
+
+                      <h5>
+                        <span class="badge qualification__calendar">
+                          <i
+                            class="
+                              uil uil-calendar-alt
+                              qualification__calendar-icon
+                            "
+                          ></i>
+                          2013
+                        </span>
+                      </h5>
+
+                      <div class="row h-50 qualification__journey">
+                        <div class="col">
+                          <span class="qualification__line"></span>
+                        </div>
+                        <div class="col">&nbsp;</div>
+                      </div>
+                    </div>
+                    <!-- Timeline content Events -->
+                    <div class="col py-2">
+                      <div
+                        class="
+                          card
+                          education-card
+                          transparent_card
+                          mirror-face
+                          shadow2
+                        "
+                      >
+                        <div class="card-body">
+                          <div class="task">
+                            <div class="abstract">
+                              <h3 class="qualification__title">QA</h3>
+                              <p class="qualification__subtitle">
+                                PT. Lemindo Abadi Jaya
+                              </p>
+                            </div>
+                            <div class="details">
+                              <p class="qualification__subtitle">
+                                -> Auditing the quality of the production
+                                process.<br />
+                                -> Testing the quality of raw materials,
+                                packaging materials, bulk products and finished
+                                products.<br />
+                                -> Calibration and verification of measurement
+                                instruments (scales, thermometers, flow meters).
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Timeline item end -->
+                  <div class="row">
+                    <!-- Timeline design -->
+                    <div class="col-auto text-center flex-column d-sm-flex">
+                      <div class="row h-50 qualification__journey">
+                        <div class="col">
+                          <span class="qualification__start">
+                            <i
+                              class="uil uil-rocket qualification__start-icon"
+                            ></i>
+                          </span>
+                        </div>
+                        <div class="col">&nbsp;</div>
+                      </div>
+                    </div>
+                    <!-- Timeline content Events -->
+                    <div class="col py-2"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- --------------- PORTFOLIO --------------- -->
+      <section class="portfolio section" id="portfolio">
+        <h2 class="section__title">Portfolio</h2>
+        <span class="section__subtitle"> My most recent works </span>
+
+        <div class="blog-slider">
+          <div class="blog-slider__wrp swiper-wrapper">
+            <!-- For portfolio item 1 -->
+            <div class="blog-slider__item swiper-slide">
+              <div class="blog-slider__img">
+                <img
+                  src="assets/img/order system.png"
+                  alt="Twitter type SNS "
+                />
+              </div>
+
+              <div class="blog-slider__content">
+                <span class="blog-slider__code"> September 2021</span>
+                <div class="blog-slider__title">Order System</div>
+                <div class="blog-slider__text">
+                  Build Web app for provide administration order between company
+                  with external part.
+                </div>
+                <a
+                  href="https://github.com/dedelukman/order-system"
+                  target="_blank"
+                  class="button blog-slider__button button--flex"
+                >
+                  Source
+                  <i class="uil uil-play button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- For portfolio item 2 -->
+            <div class="blog-slider__item swiper-slide">
+              <div class="blog-slider__img">
+                <img src="assets/img/buimas.png" alt="Portfolio item" />
+              </div>
+
+              <div class="blog-slider__content">
+                <span class="blog-slider__code"> August 2021</span>
+                <div class="blog-slider__title">Education Android App</div>
+                <div class="blog-slider__text">
+                  Build Android App for Dr. Hj. Imas Kania Rahman, M.Pd.I
+                </div>
+                <a
+                  href="https://play.google.com/store/apps/details?id=id.ac.ppsuika.imaskaniarahman.sdbhsm"
+                  target="_blank"
+                  class="button blog-slider__button button--flex"
+                >
+                  PlayStore
+                  <i class="uil uil-play button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- For portfolio item 3 -->
+            <div class="blog-slider__item swiper-slide">
+              <div class="blog-slider__img">
+                <img src="assets/img/claresta.png" alt="Portfolio item" />
+              </div>
+
+              <div class="blog-slider__content">
+                <span class="blog-slider__code"> July 2021</span>
+                <div class="blog-slider__title">Product Portfolio Website</div>
+                <div class="blog-slider__text">
+                  Build website for portfolio claresta.
+                </div>
+                <a
+                  href="https://claresta.com/"
+                  target="_blank"
+                  class="button blog-slider__button button--flex"
+                >
+                  Live Website
+                  <i class="uil uil-play button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- For portfolio item 4 -->
+            <div class="blog-slider__item swiper-slide">
+              <div class="blog-slider__img">
+                <img src="assets/img/pos.png" alt="Portfolio item" />
+              </div>
+
+              <div class="blog-slider__content">
+                <span class="blog-slider__code"> October 2020</span>
+                <div class="blog-slider__title">
+                  POS & Inventory System Web App
+                </div>
+                <div class="blog-slider__text">
+                  Development of web applications that can display dashboard
+                  summary sales, manage inventory and POS transactions in
+                  multiple branches.
+                </div>
+                <!-- <a
+                  href="#"
+                  target="_blank"
+                  class="button blog-slider__button button--flex"
+                >
+                  Demo
+                  <i class="uil uil-play button__icon"></i>
+                </a> -->
+              </div>
+            </div>
+
+            <!-- For portfolio item 5 -->
+            <div class="blog-slider__item swiper-slide">
+              <div class="blog-slider__img">
+                <img src="assets/img/paint.png" alt="Portfolio item" />
+              </div>
+
+              <div class="blog-slider__content">
+                <span class="blog-slider__code"> July 2020</span>
+                <div class="blog-slider__title">Entertaint Android App</div>
+                <div class="blog-slider__text">
+                  Development of free drawing application on google playstore
+                  with full features.
+                </div>
+                <a
+                  href="https://play.google.com/store/apps/details?id=com.abahstudio.kidsdrawingapp"
+                  target="_blank"
+                  class="button blog-slider__button button--flex"
+                >
+                  PlayStore
+                  <i class="uil uil-play button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- For portfolio item 4 -->
+            <div class="blog-slider__item swiper-slide">
+              <div class="blog-slider__img">
+                <img src="assets/img/transaction.png" alt="Portfolio item" />
+              </div>
+
+              <div class="blog-slider__content">
+                <span class="blog-slider__code"> June 2019</span>
+                <div class="blog-slider__title">ERP System</div>
+                <div class="blog-slider__text">
+                  Desktop application development for purchasing management,
+                  sales, inventory, tax, accounting and finance at PT. Araya
+                  Distriversa Lestari
+                </div>
+                <!-- <a
+                  href="#"
+                  target="_blank"
+                  class="button blog-slider__button button--flex"
+                >
+                  Demo
+                  <i class="uil uil-play button__icon"></i>
+                </a> -->
+              </div>
+            </div>
+
+            <div class="blog-slider__pagination"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- --------------- CONTACT US --------------- -->
+      <section class="contact section" id="contact">
+        <h2 class="section__title">Contact Me</h2>
+        <span class="section__subtitle"> Get in touch</span>
+
+        <div class="row mt-lg-6 justify-content-center contact_mail">
+          <!-- Contact information -->
+          <div class="col-lg-6 mx-lg-0 mx-2 contact__container container">
+            <div class="contact__information">
+              <i class="uil uil-phone contact__icon"></i>
+
+              <div>
+                <h3 class="contact__title">Call Me</h3>
+                <span class="contact__subtitle">+62-8179042469</span>
+              </div>
+            </div>
+
+            <div class="contact__information">
+              <i class="uil uil-envelope contact__icon"></i>
+
+              <div>
+                <h3 class="contact__title">E-mail</h3>
+                <span class="contact__subtitle">ddlukmanulhakim@gmail.com</span>
+              </div>
+            </div>
+
+            <div class="contact__information">
+              <i class="uil uil-location-pin-alt contact__icon"></i>
+              <div>
+                <h3 class="contact__title">Address</h3>
+                <span class="contact__subtitle">
+                  Bogor, West Java - Indonesia</span
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- FORM -->
+          <div
+            class="col-lg-6 pl-lg-4 mt-lg-0 mt-6 contact-form"
+            id="message-me"
+          >
+            <h2 class="contact__title">
+              Interested to work together? - <span> Let's talk </span>
+            </h2>
+
+            <form action="#" method="POST" class="cf">
+              <div class="row">
+                <div class="col-lg-6">
+                  <input
+                    type="text"
+                    name="message-name"
+                    class="form-control form__color mb-30 cf"
+                    placeholder="Your Name"
+                  />
+                </div>
+                <div class="col-lg-6">
+                  <input
+                    type="email"
+                    name="message-email"
+                    class="form-control form__color mb-30 cf"
+                    placeholder="Your Email"
+                  />
+                </div>
+                <div class="col-12">
+                  <input
+                    type="text"
+                    name="message-subject"
+                    class="form-control form__color mb-30 cf"
+                    placeholder="Subject"
+                  />
+                </div>
+                <div class="col-12">
+                  <textarea
+                    name="message"
+                    class="form-control form__color mb-30 cf"
+                    cols="30"
+                    rows="5"
+                    placeholder="Your Message"
+                  ></textarea>
+                </div>
+                <div class="col-12">
+                  <button
+                    type="submit"
+                    class="button button--flex send-message form_button"
+                  >
+                    Send Message
+                    <i class="uil uil-message button__icon"></i>
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
     </main>
     <!-- --------------- FOOTER --------------- -->
     <footer class="footer">
+      <div class="footer__bg">
+        <div class="footer__container container grid">
+          <div>
+            <h1 class="footer__title">LUKMAN</h1>
+            <span class="footer__subtitle"> Software Developer</span>
+          </div>
 
+          <ul class="footer__links">
+            <li>
+              <a href="#about" class="footer__link"> About Me</a>
+            </li>
+
+            <li>
+              <a href="#portfolio" class="footer__link"> My Portfolio</a>
+            </li>
+
+            <li>
+              <a href="#contact" class="footer__link"> Contact Me</a>
+            </li>
+          </ul>
+
+          <div class="footer__socials">
+            <a
+              href="https://www.linkedin.com/in/dede-lukmanul-hakim-73bb6772/"
+              target="_blank"
+              class="footer__social"
+              id="myLinkedIn"
+            >
+              <i class="uil uil-linkedin-alt"></i>
+            </a>
+
+            <a
+              href="https://gitlab.com/dedelukman"
+              target="_blank"
+              class="footer__social"
+              id="myGitlab"
+            >
+              <i class="uil uil-gitlab"></i>
+            </a>
+
+            <a
+              href="https://github.com/dedelukman"
+              target="_blank"
+              class="footer__social"
+              id="myGithub"
+            >
+              <i class="uil uil-github-alt"></i>
+            </a>
+
+            <a
+              href="https://web.facebook.com/dede.lukmanulhakim.96/"
+              target="_blank"
+              class="footer__social"
+              id="myFacebook"
+            >
+              <i class="uil uil-facebook-f"></i>
+            </a>
+
+            <a
+              href="https://www.hackerrank.com/dlukmanul_h"
+              target="_blank"
+              class="footer__social"
+              id="myHackerRank"
+            >
+              <i class="uil uil-hospital-square-sign"></i>
+            </a>
+          </div>
+        </div>
+
+        <p class="footer__copy">
+          &#169; Dede Lukmanul Hakim. All rights reserved
+        </p>
+      </div>
     </footer>
 
-   
+    <!-- ------------- SCROLL TOP -------------------->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
+
     <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
 
     <!-- Core -->
     <script src="/assets/vendor/jquery/jquery.min.js"></script>
@@ -119,10 +1244,15 @@
     <script src="/assets/vendor/bootstrap/bootstrap.min.js"></script>
 
     <!-- Theme JS -->
-    <script src="/assets/js/argon-design-system.min.js"></script>   
+    <script src="/assets/js/argon-design-system.min.js"></script>
+
+    <!--  Typewriter CSS Effect -->
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
     <!-- Script Self -->
     <script src="js/script.js"></script>
-
   </body>
 </html>
